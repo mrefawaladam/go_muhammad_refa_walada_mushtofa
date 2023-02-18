@@ -14,6 +14,8 @@ func main() {
     for i := 1; i <= number; i++ {
         if number%i == 0 {
             fmt.Printf("%d ", i)
+            fmt.Println()
         }
+       
     }
 }
