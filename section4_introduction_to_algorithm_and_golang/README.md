@@ -11,5 +11,5 @@ di sola praktikum algorithms dalam pembuatan flowchart tadi saya akan melakukan 
 ### Soal Prioritas 1
 - buatlah sebuah program untuk menghitung luas trapesium  [Jawaban](praktikum_basic_prgoramming/luas_trapesium.go) 
  *Review*
-disini saya  membuat file dengan nama luas_trapesium.go saya membuat 3 variabel dengan tipe float32 di sini saya menambahkan proses untuk Input dengan fmt ![Alt Text](assets/2023-02-18_15-24.png) dan membuat fungsi untuk mencar luas dari segitiga tersebut
+disini saya  membuat file dengan nama luas_trapesium.go saya membuat 3 variabel dengan tipe float32 di sini saya menambahkan proses untuk Input dengan fmt <br> ![Alt Text](assets/2023-02-18_15-24.png)<br> dan membuat fungsi untuk mencar luas dari segitiga tersebut
 
