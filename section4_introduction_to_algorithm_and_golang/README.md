@@ -13,3 +13,19 @@ di sola praktikum algorithms dalam pembuatan flowchart tadi saya akan melakukan 
  <br>*Review*<br>
 disini saya  membuat file dengan nama luas_trapesium.go saya membuat 3 variabel dengan tipe float32 di sini saya menambahkan proses untuk Input dengan fmt <br> ![Alt Text](assets/2023-02-18_15-24.png)<br> dan membuat fungsi untuk mencar luas dari segitiga tersebut
 
+- buatlah sebuah program untuk menentukan apakah sebuah bilang adalah bilang ganjil atau genap  [Jawaban](praktikum_basic_prgoramming/check_bilangan_ganjil.go) 
+ <br>*Review*<br>
+ di sini saya membuat system bisa melakukan input number point pentig di soal ini adalah saya melakukan proses pencarrian ganjil genap menggunakan kondisi jika number bisa di mod = 0 maka bilanang itu genap dan sebalikanya jika bilangan itu tidak bisa di mod = 0 maka bilanang itu ganjil  <br> ![Alt Text](assets/2023-02-18_15-33.png)
+
+- buatlah sebuah program untuk menentukan grade dari sebuah nilai, dengan ketentuan sebagai berikut:
+    - Nilai 80 - 100: A
+    - Nilai 65 - 79: B
+    - Nilai 50 - 64: C
+    - Nilai 35 - 49: D
+    - Nilai 0 - 34: E
+    - Nilai kurang dari 0 atau lebih dari 100 maka tampilkan 'Nilai Invalid' [Jawaban](praktikum_basic_prgoramming/check_grade.go) 
+<br>*Review*<br>
+saya menggunakan switch case untuk melakuka proses pencarian nilai dengan kondisi yang di tetnukan alasan saya sendiri memilih swich case karena membuatuhkan condisi yang banyak
+<br> ![Alt Text](assets/2023-02-18_15-37.png)
+
+- buatlah sebuah program yang mencetak angka dari 1 sampai 100 dan untuk kelipatan '3' cetak "Fizz" sebagai ganti angka, dan untuk kelipatan '5' cetak "Buzz”. Sebagai contoh; 1 2 fizz 4 buzz fizz 7 8 fizz buzz …….
