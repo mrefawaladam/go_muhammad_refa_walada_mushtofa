@@ -10,6 +10,6 @@ di sola praktikum algorithms dalam pembuatan flowchart tadi saya akan melakukan 
 ## Praktikum Basic Programming
 ### Soal Prioritas 1
 - buatlah sebuah program untuk menghitung luas trapesium  [Jawaban](praktikum_basic_prgoramming/luas_trapesium.go) 
- *Review*
+ <br>*Review*<br>
 disini saya  membuat file dengan nama luas_trapesium.go saya membuat 3 variabel dengan tipe float32 di sini saya menambahkan proses untuk Input dengan fmt <br> ![Alt Text](assets/2023-02-18_15-24.png)<br> dan membuat fungsi untuk mencar luas dari segitiga tersebut
 
