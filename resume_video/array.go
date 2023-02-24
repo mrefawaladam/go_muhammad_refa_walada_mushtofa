@@ -9,8 +9,8 @@ func main()  {
 	var primes [5]int
 	var couteries [5]string
 
-	fmt.Println(reflect.ValueOf(couteries).Kind())
-	fmt.Println(reflect.ValueOf(couteries).Kind())
+	fmt.Println(reflect.ValueOf(asdfas).Kind())
+	fmt.Println(reflect.ValueOf(aadd).Kind())
 
 	// how to write arrat with default value
 	x := [5]int {1, 2, 3, 4,5}
