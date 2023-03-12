@@ -3,18 +3,22 @@
 ## Tugas
 
  1. Kode berikut ini dituliskan tanpa mengikuti kebiasaan penulisan yang disarankan.
-    - Berapa banyak kekurangan dalam penulisan kode tersebut?
+    - Berapa banyak kekurangan dalam penulisan kode tersebut?  4
     - Bagian mana saja terjadi kekurangan tersebut?
+       1. Penamaan variabel yang tidak tidak jelas
+       2. Tipe data variabel yang tidak konsisten
+       3. Pemilihan nama method yang tidak deskriptif
+       4. Penggunaan variabel yang tidak digunakan
     - Tuliskan alasan dari setiap kekurangan tersebut. Alasan bisa diberikan dalam bentuk komentar pada kode yang disediakan berikut.
-      <br>********************************Jawab :  [Sours Code](tugas/../Section13_CleanCode/tugas/userservice.go)********************************   
-    Penjelasan  
-    <br>
-    1. pertama saya melakukan penjelasan dengan memperjelasmaksut dari variabel contoh yang saya rubah pada method getuserbyid di looping itu menggunakan variabel yang tidak jelas lalu saya semputnakan dengan menggunakan variabel yang jelas dan saya berkomitmen untuk menggunakan bahasa inggris untuk penulisan code yang saya buat
-    2. lalu saya melakukan perubahan tipe data pada struct saya ubah karena jika penulisan dari variabel yang tidak konsisten akan menimbul kan beberapa masalah contoh ketika memasukan data json dari api di parsing ke struc jika tipe dari variabel tidak sesuai akan menimbulkan kesalahan
-    3. lalu saya merubah penamaan method yang tidak deskriptif karena jika menggunakan method yang deskriptif akan mempermudah pemahan dari sebuah method
-    4. menghapus variabel yang tidak di gunakan
-
-2. Kode berikut ini dituliskan tanpa mengikuti kebiasaan penulisan yang disarankan. Ubahlah penulisan kode berikut menjadi lebih terbaca dan lebih rapi!
+      
+      1. pertama saya melakukan penjelasan dengan memperjelasmaksut dari variabel contoh yang saya rubah pada method getuserbyid di looping itu menggunakan variabel yang tidak jelas lalu saya semputnakan dengan menggunakan variabel yang jelas dan saya berkomitmen untuk menggunakan bahasa inggris untuk penulisan code yang saya buat
+      2. lalu saya melakukan perubahan tipe data pada struct saya ubah karena jika penulisan dari variabel yang tidak konsisten akan menimbul kan beberapa masalah contoh ketika memasukan data json dari api di parsing ke struc jika tipe dari variabel tidak sesuai akan menimbulkan kesalahan
+      3. lalu saya merubah penamaan method yang tidak deskriptif karena jika menggunakan method yang deskriptif akan mempermudah pemahan dari sebuah method
+      4. menghapus variabel yang tidak di gunakan
+   
+         <br>********************************Jawab :  [Sours Code](tugas/../Section13_CleanCode/tugas/userservice.go)********************************   
+            <br>
+1. Kode berikut ini dituliskan tanpa mengikuti kebiasaan penulisan yang disarankan. Ubahlah penulisan kode berikut menjadi lebih terbaca dan lebih rapi!
    <br>********************************Jawab :  [Sours Code](tugas/../Section13_CleanCode/tugas/kendaraa.go)********************************   
    Penjelasan  
    <br>

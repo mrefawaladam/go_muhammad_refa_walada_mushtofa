@@ -1,25 +1,25 @@
 package main
 
-type user struct {
-	id       int
-	username int
-	password int
+type User struct {
+	ID       int
+	Username string
+	Password string
 }
 
-type userservice struct {
-	t []user
+type UserService struct {
+	users []User
 }
 
-func (u userservice) getallusers() []user {
-	return u.t
+func (s UserService) GetAllUsers() []User {
+	return s.users
 }
 
-func (u userservice) getuserbyid(id int) user {
-	for _, r := range u.t {
-		if id == r.id {
-			return r
+func (s UserService) GetUserByID(id int) User {
+	for _, user := range s.users {
+		if id == user.ID {
+			return user
 		}
 	}
 
-	return user{}
+	return User{}
 }
