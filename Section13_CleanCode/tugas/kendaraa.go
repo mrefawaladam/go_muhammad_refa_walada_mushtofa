@@ -1,30 +1,27 @@
 package main
 
-type kendaraan struct {
-	totalRoda       int
-	kecepatanPerJam int
+type Kendaraan struct {
+	TotalRoda       int
+	KecepatanPerJam int
 }
 
-type mobil struct {
-	kendaraan
+type Mobil struct {
+	Kendaraan
 }
 
-// tambahkan pointer pada parameter fungsi untuk mengubah struct kendaraan secara langsung
-func (m *mobil) berjalan() {
-	m.tambahKecepatan(10)
+func (m *Mobil) Berjalan() {
+	m.TambahKecepatan(10)
 }
 
-// tambahkan nama field pada parameter untuk lebih jelas
-func (m *mobil) tambahKecepatan(kecepatanBaru int) {
-	m.kecepatanPerJam += kecepatanBaru
+func (m *Mobil) TambahKecepatan(kecepatanBaru int) {
+	m.KecepatanPerJam += kecepatanBaru
 }
 
 func main() {
-	mobilCepat := mobil{}
-	mobilCepat.berjalan()
-	mobilCepat.berjalan()
-	mobilCepat.berjalan()
-
-	mobilLambat := mobil{}
-	mobilLambat.berjalan()
+	mobilCepat := Mobil{}
+	mobilCepat.Berjalan()
+	mobilCepat.Berjalan()
+	mobilCepat.Berjalan()
+	mobilLambat := Mobil{}
+	mobilLambat.Berjalan()
 }
