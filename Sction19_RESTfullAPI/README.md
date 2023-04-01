@@ -10,7 +10,7 @@
 - Hapus suatu data melalui API : [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)
  <br>![Alt Text](assets/2023-03-28_20-08.png)<br>
 
-[Referensi](https://jsonplaceholder.typicode.com/guide/)
+[Referensi](https://jsonplaceholder.typicode.com/guide/) p
 
 ### Skenario 2
 
