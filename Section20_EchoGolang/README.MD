@@ -6,4 +6,12 @@
   <br>********************************Jawab :  [Sours Code](restapi/main.go)********************************   
  
 method GET mengambil semuar user
- <br>![Alt Text](assets/2023-03-04_18-45.png)<br>
+ <br>![Alt Text](assets/2023-04-01_18-32_1.png)<br>
+ method GET by id
+  <br>![Alt Text](assets/2023-04-01_18-33_1.png)<br>
+method POST buat user baru
+ <br>![Alt Text](assets/2023-04-01_18-32.png)<br>
+Method PUT
+ <br>![Alt Text](assets/2023-04-01_18-33.png)<br>
+Method DELETE
+ <br>![Alt Text](assets/2023-04-01_18-33_2.png)<br>
