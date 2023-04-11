@@ -161,7 +161,7 @@ func LoginUserController(c echo.Context) error {
 	userResponse := models.UserResponse{user.ID, user.Name, user.Email, token}
 
 	return c.JSON(http.StatusOK, map[string]interface{}{
-		"message": "success create new user",
+		"message": "success login",
 		"user":    userResponse,
 	})
 }
